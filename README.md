@@ -21,6 +21,7 @@ and actually addresses and fixes the problems that the JavaScript language itsel
 [JS Language Resources](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources)
 [Lecture on Compiler Design](https://www.youtube.com/watch?v=WccZQSERfCM&index=2&list=PLEbnTDJUr_IcPtUXFy2b1sGRPsLFMghhS)
 [Lecture on Compilers](https://www.youtube.com/watch?v=h7GQzQYBW1A&list=PLDAE55AEE0731D729)
+[Helpful Suggestions for Desktop Compatibility](http://programmers.stackexchange.com/questions/83399/why-isnt-html-css-and-js-used-for-desktop-apps)
 
 #Anatomy:
 
