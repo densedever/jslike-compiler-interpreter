@@ -1,6 +1,10 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
+// g++ main.cpp -o jsi -Wall -std-c++11
+
+// the class for tokenization and parsing of received strings
 class Interpreter
 {
     string version = "0.0.1";
@@ -9,19 +13,19 @@ class Interpreter
 public:
     Interpreter() {}
     ~Interpreter() {}
-    string getUserInput()
+    string getUserInput(void)
     {
         cin >> this->command;
         return command;
     }
     
-    void tokenizeUserInput()
+    void tokenizeUserInput(void)
     {
         ;
     }
 };
 
-int main()
+int main(int argc, char* argv[])
 {
     Interpreter jsi;
     jsi.getUserInput();
