@@ -47,3 +47,11 @@ JS -> Preprocessing (preprocessed code)
 -> Intermediate code (three-address code)
 -> Optimization (optimized three-address code)
 -> Target code generation
+
+#Plan of attack:
+
+- make a standard library for the language, including some basic data types.
+- make a tokenizer and a lexer that breaks down the string and makes syntax trees from the grammar
+
+
+
