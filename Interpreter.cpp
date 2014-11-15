@@ -33,7 +33,7 @@ string	Interpreter::getPrompt(void) {return this->prompt;}
 void Interpreter::promptUser(void)
 {
 	cout << getPrompt();
-	cin.ignore();
+	cin.clear();
 	getline(cin, this->command);
 }
 
@@ -43,7 +43,7 @@ void Interpreter::startREPL(void)
 	while(true)
 	{
 		promptUser();
-		if(getInputString()=="exit") exit(0);
+		if(getInputString().compare("exit") == 0) exit(0);
 		else cout << "error: input not recognized." << endl;
 	}
 }
