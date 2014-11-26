@@ -37,6 +37,10 @@ and actually addresses and fixes the problems that the JavaScript language itsel
 
 ##What the language looks like:
 
+####Comments:
+- single line (//)
+- multi-line (/* ... */)
+
 ####Assignment:
 - type name;
 - name = expr;
@@ -126,4 +130,6 @@ JS -> Preprocessing (preprocessed code)
 
 - make a tokenizer and a lexer that breaks down the string and makes syntax trees from the grammar
 - make a [standard](http://learnjavascript.co.uk/jsbasics/anatomyjs.html) [library](http://archive.oreilly.com/pub/a/javascript/excerpts/javascript-tdg/core-javascript-reference.html) for the language, starting with some basic data types and simple console I/O.
+
+
 
